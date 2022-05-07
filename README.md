@@ -167,7 +167,7 @@ Just like JS, there are two categories of data types in Node: Primitives and Obj
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to create a simple server in Node.js that returns Hello World?***
+## Q. ***How to create a simple server in Node.js that returns Hello World?*** 
 
 **Step 01**: Create a project directory
 
@@ -252,7 +252,7 @@ console.log(qdata.month); //returns 'september'
 </div>
 
 
-## Q. ***How to make an HTTP POST request using Node.js?***
+## Q. ***How to make an HTTP POST request using Node.js?*** 🔴
 
 ```js
 const https = require('https')
@@ -298,7 +298,7 @@ req.end()
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to execute an external program from within Node.js?***
+## Q. ***How to execute an external program from within Node.js?*** 🔴
 
 const { exec } = require('child_process');
 
@@ -427,7 +427,7 @@ myNew(function(err, res){
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How assert works in Node.js?***
+## Q. ***How assert works in Node.js?*** 
 
 The assert module provides a way of testing expressions. If the expression evaluates to 0, or false, an assertion failure is being caused, and the program is terminated.
 
@@ -757,7 +757,7 @@ Content-Security-Policy: default-src 'self' *.http://sometrustedwebsite.com
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you make sure your dependencies are safe?***
+## Q. ***How can you make sure your dependencies are safe?*** 🔴
 
 The only option is to automate the update / security audit of your dependencies. For that there are free and paid options:
 
@@ -773,7 +773,7 @@ The only option is to automate the update / security audit of your dependencies.
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is Event loop in Node.js? How does it work?***
+## Q. ***What is Event loop in Node.js? How does it work?*** 
 
 The event loop is what allows Node.js to perform non-blocking I/O operations — despite the fact that JavaScript is single-threaded — by offloading operations to the system kernel whenever possible.
 
@@ -828,7 +828,7 @@ console.log("Program Ended.");
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***If Node.js is single threaded then how it handles concurrency?***
+## Q. ***If Node.js is single threaded then how it handles concurrency?*** 
 
 *ToDo*
 
@@ -1525,7 +1525,7 @@ V8 is Google’s open source high-performance JavaScript and WebAssembly engine,
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the purpose of using hidden classes in V8?***
+## Q. ***What is the purpose of using hidden classes in V8?*** 🔴
 
 *ToDo*
 
@@ -1533,7 +1533,7 @@ V8 is Google’s open source high-performance JavaScript and WebAssembly engine,
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How V8 compiles JavaScript code?***
+## Q. ***How V8 compiles JavaScript code?*** 🔴
 
 *ToDo*
 
@@ -1541,7 +1541,7 @@ V8 is Google’s open source high-performance JavaScript and WebAssembly engine,
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is V8 Templates?***
+## Q. ***What is V8 Templates?*** 🔴
 
 *ToDo*
 
@@ -1890,7 +1890,7 @@ The second approach is where the master process creates the listen socket and se
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What does emitter do and what is dispatcher?***
+## Q. ***What does emitter do and what is dispatcher?*** 🔴
 
 Node.js core API is based on asynchronous event-driven architecture in which certain kind of objects called emitters periodically emit events that cause listener objects to be called.
 
@@ -1928,7 +1928,7 @@ Pattern-wise, the Dispatcher is also a singleton, whereas EventEmitter is an API
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to kill child processes that spawn their own child processes in Node.js?***
+## Q. ***How to kill child processes that spawn their own child processes in Node.js?*** 🔴
 
 If a child process in Node.js spawn their own child processes, kill() method will not kill the child process’s own child processes. For example, if I start a process that starts it’s own child processes via child_process module, killing that child process will not make my program to quit.
 
@@ -1958,7 +1958,7 @@ Please note - before pid. This converts a pid to a group of pids for process kil
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What do you understand by Reactor Pattern in Node.js?***
+## Q. ***What do you understand by Reactor Pattern in Node.js?*** 🔴
 
 Reactor Pattern is an idea of non-blocking I/O operations in Node.js. This pattern provides a handler(in case of Node.js, a callback function) that is associated with each I/O operation. When an I/O request is generated, it is submitted to a demultiplexer.
 
@@ -2143,7 +2143,7 @@ While processing a request, Node.js attaches a callback function to it and moves
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Is Node.js entirely based on a single-thread?***
+## Q. ***Is Node.js entirely based on a single-thread?*** 🔴
 
 Yes, it is true that Node.js processes all requests on a single thread. But it is just a part of the theory behind Node.js design. In fact, more than the single thread mechanism, it makes use of events and callbacks to handle a large no. of requests asynchronously.
 
@@ -2155,7 +2155,7 @@ To explain it practically, let’s assume there are 100s of requests lined up in
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How to make post request in Node.js?***
+## Q. ***How to make post request in Node.js?*** 🔴
 
 Following code snippet can be used to make a Post Request in Node.js.
 
@@ -2173,7 +2173,7 @@ var request = require('request');
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Can you create http server in Node.js, explain the code used for it?***
+## Q. ***Can you create http server in Node.js, explain the code used for it?*** 🔴
 
 Yes, we can create HTTP Server in Node.js. We can use the `<http-server>` command to do so.
 
@@ -2233,7 +2233,7 @@ response.end();
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How can you listen on port 80 with Node?***
+## Q. ***How can you listen on port 80 with Node?*** 🔴
 
 Instead of running on port 80 we can redirect port 80 to your application\'s port (>1024) using
 
@@ -2245,7 +2245,7 @@ iptables -t nat -I PREROUTING -p tcp --dport 80 -j REDIRECT --to-port 3000
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is the difference between operational and programmer errors?***
+## Q. ***What is the difference between operational and programmer errors?*** 
 
 Operation errors are not bugs, but problems with the system, like request timeout or hardware failure. On the other hand programmer errors are actual bugs.
 
@@ -2374,7 +2374,7 @@ Node.js uses an event loop for this. An event loop is “an entity that handles 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are async functions in Node?***
+## Q. ***What are async functions in Node?*** 🔴
 
 *ToDo*
 
@@ -2382,7 +2382,7 @@ Node.js uses an event loop for this. An event loop is “an entity that handles 
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Mention the steps by which you can async in Node.js?***
+## Q. ***Mention the steps by which you can async in Node.js?*** 🔴
 
 ES 2017 introduced Asynchronous functions. Async functions are essentially a cleaner way to work with asynchronous code in JavaScript. 
 
@@ -2438,7 +2438,7 @@ addAsync(10).then((sum) => {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What are the timing features of Node.js?***
+## Q. ***What are the timing features of Node.js?*** 🔴
 
 *ToDo*
 
@@ -2446,7 +2446,7 @@ addAsync(10).then((sum) => {
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is LTS releases of Node.js why should you care?***
+## Q. ***What is LTS releases of Node.js why should you care?*** 🔴
 
 An LTS(Long Term Support) version of Node.js receives all the critical bug fixes, security updates and performance
 
@@ -3234,7 +3234,7 @@ module.exports = router
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***How node.js prevents blocking code?***
+## Q. ***How node.js prevents blocking code?*** 🔴
 
 **Blocking vs Non-blocking**
 
@@ -3264,7 +3264,7 @@ moreWork(); // will run before console.log
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***What is difference between promises and async-await in Node.js?***
+## Q. ***What is difference between promises and async-await in Node.js?*** 🔴
 
 **1. Promises**
 

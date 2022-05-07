@@ -9,6 +9,9 @@
 * *[NodeJS Commands](nodejs-commands.md)*
 
 <br/>
+let str='sa sa as';
+let arr=str.split(' ');
+console.log(arr.join('-'));
 
 | Sl.No|  Questions       |
 |------|------------------|
@@ -225,7 +228,7 @@ node app.js
     <b><a href="#">↥ back to top</a></b>
 </div>
 
-## Q. ***Explain the concept of URL module in Node.js?***
+## Q. ***Explain the concept of URL module in Node.js?*** 
 
 The URL module in Node.js splits up a web address into readable parts. Use ```require()``` to include the module:
 
@@ -252,7 +255,7 @@ console.log(qdata.month); //returns 'september'
 </div>
 
 
-## Q. ***How to make an HTTP POST request using Node.js?***
+## Q. ***How to make an HTTP POST request using Node.js?*** 🔴
 
 ```js
 const https = require('https')
